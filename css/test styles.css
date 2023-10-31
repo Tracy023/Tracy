@@ -1,0 +1,242 @@
+html {
+    box-sizing:border-box;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: "rocky", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+body {
+    font-family: "rocky", serif;
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #9c9087;
+    color: #fff;
+    padding: 20px;
+    z-index: 100;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex: 1;
+    padding: 40px;
+}
+
+
+@media screen and (min-width:1480) {
+}
+
+
+#section1 {
+    background-color: #F4EAE2; 
+    height: 500px ;
+    padding: 30px;
+}
+
+#section2 {
+    font-size: 1.5em;
+    color: #893E34;
+    background-color: #C59F88;
+    height: 500px ;
+    padding: 30px;
+}
+#section3 {
+    background-color: #4A2E1F;
+    height: 600px ;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+  
+    }
+    
+    #section3 .ABCs-Letter {
+        font-size: 1.5em;
+        margin: 10px; /* Add spacing between letters */
+        letter-spacing:  15px; /* Adjust the letter spacing as needed */
+        font-weight: bold;
+        color:#D4BEB0; 
+    }
+    
+    #section3 .ABCs-Numbers {
+        font-size: 1.25em; 
+        color: #893E34; 
+        margin: 10px;
+        letter-spacing: 15px;
+    }
+    
+    #section3 .ABCs-Punctuation {
+        font-size: 1em; 
+        color: #B4874A;
+        margin: 10px; 
+        letter-spacing: 15px;
+    }
+    
+    
+
+
+#section4 {
+    background-color: #B3A9A2;
+    height: 800px ;
+    padding: 30px;
+    
+}
+
+#section4 .display-examples{
+    font-size: 8em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    transform: skewX(30deg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.display-word.red {
+    color: #4A2E1F;
+}
+
+.display-word.green {
+    color: #5C5049;
+}
+
+.display-word.blue {
+    color: #89431F;
+}
+
+.display-word.yellow {
+    color: #D4D2BA;
+}
+
+.display-word.purple {
+    color: #B4874A;
+}
+
+
+#section5 {
+    color: #89431F;
+    background-color: #FFFFFF; 
+    color: #333;
+    height: 1100px ;
+    padding: 30px;
+    letter-spacing: 4px;
+    line-height: 1.6;
+    max-width: 100%;
+    max-width: 100%;
+}
+#section5 .body-copy-example {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section5 .style {
+    background-color: #C59F88;
+    padding: 20px;
+    border: 2px solid #DFC4A4;
+    margin: 10px;
+    width: 30%; /* Adjust width as desired */
+    text-align: center;
+    box-shadow: 3px 3px 5px #888;
+    border: 2px solid #5C5049; /* Add a contrasting border */
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 3px 3px 5px #888;
+    max-width: 100%;
+
+}
+
+#section5 .style h3 {
+    font-size: 1.5em;
+    color: #333;
+    
+}
+
+#section5 .style p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+
+#section6 {
+    color: #5C5049;
+    background-color: #ACCEC5;
+    height: 500px ;
+    padding: 30px;
+}
+
+#section6 .stretch-sentence {
+    font-family: "rocky", serif;
+    font-size: 3em;
+    text-align: center;
+    color: #333; /* Choose a suitable color */
+    padding: 20px;
+}
+
+.rectangle {
+    background-color: #9F7A66; 
+    padding: 20px; left: 80px;  
+    text-align: left;
+    width: 50%;
+    height: 200px; 
+    margin: 120px 20px;
+}
+
+.rectangle-type {
+    color: #fff;
+}
+
+.rectangle-type h1 {
+    font-size: 100px;
+}
+
+.rectangle-type h2{ 
+    font-size: 50px
+
+}
